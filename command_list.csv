@@ -1,0 +1,214 @@
+    1  clear
+    2  cd /c/HW25_Git
+    3  mkdir test_dir1
+    4  ls -l
+    5  cd
+    6  pwd
+    7  cd
+    8  ls 
+    9  clear
+   10  cd /c/HW25_Git
+   11  ls
+   12  git config --global user.name
+   13  git config --global user.email
+   14  git clone https://github.com/Olha-star/HW_10.git
+   15  ls -l
+   16  cd HW_10
+   17  git status
+   18  touch .gitignore
+   19  ls -la
+   20  vim .gitignor
+   21  git status
+   22  git add .gitignore
+   23  git commit -m "added gitognore"
+   24  vim .gitignore
+   25  git status
+   26  зцв
+   27  clear
+   28  pwd
+   29  cd /c/Users/homem/HW_10
+   30  git config --globai user.name Olha-star
+   31  clear
+   32  pwd
+   33  git config --get user.name
+   34  git config --get user.email
+   35  git clone --get https://github.com/Olha-star/HW_10.git
+   36  cd /c/Users/homem
+   37  cd Documents
+   38  pwd
+   39  mkdir hw_10
+   40  ls
+   41  ls -l
+   42  cd hw_10
+   43  ls -l
+   44  touch main_test.txt
+   45  ls -l
+   46  git add
+   47  commit
+   48  help
+   49  clear
+   50  cd main_test.txt
+   51  clear
+   52  touch main_test.txt
+   53  ls -l
+   54  git add .
+   55  git commit -m "Create empty file main_test.txt"
+   56  clear
+   57  cd HW_10
+   58  pwd
+   59  cd
+   60  clear
+   61  cd /c/User/homem/Documents/HW_10
+   62  cd
+   63  clear
+   64  pwd
+   65  cd Documents
+   66  pwr
+   67  clear
+   68  mkdir HW_10
+   69  cd HW_10
+   70  pwd
+   71  git config --global user.name Olha-star
+   72  git config --global user.email vare2001nyk@gmail.com
+   73  git config --get user.name
+   74  git config --get user.email
+   75  git clone https://github.com/Olha-star/HW_10.git
+   76  ls -l
+   77  cd HW_10
+   78  ls -la
+   79  vim .gitignor
+   80  touch text_ignore.txt
+   81  vim .gitignore
+   82  ls -la
+   83  git status
+   84  git add . gitignore
+   85  git add .gitignore
+   86  commit -m "added gitignore"
+   87  git push origin main
+   88  clear
+   89  touch main_test.txt
+   90  ls -l
+   91  git add main_test.txt
+   92  commit -m "added main_test.txt"
+   93  git status
+   94  clear
+   95  git checkout -b develop
+   96  git status
+   97  touch develop_test.txt
+   98  git add develop_test.txt
+   99  commit -m "added develop_test.txt"
+  100  vim develop_test.txt
+  101  git status
+  102  clear
+  103  git status
+  104  git add .gitignore
+  105  ls -la
+  106  echo
+  107  echo "Develop branch changes"
+  108  git status
+  109  git add .
+  110  git commit -m "Updated develop_test.txt"
+  111  git log
+  112  git merge HW_10
+  113  clear
+  114  git log
+  115  git checkout main
+  116  git log
+  117  git merge develop
+  118  git log
+  119  git status
+  120  git push oridgin main
+  121  cd
+  122  clear
+  123  cd
+  124  pwd
+  125  ls -l
+  126  ls -la
+  127  clear
+  128  cd Documents
+  129  ls -l
+  130  cd .gitignore
+  131  cd HW_10/HW_10
+  132  ls -l
+  133  ls -la
+  134  git status
+  135  add .gitignore
+  136  clear
+  137  git checkout -b develop1
+  138  git branch
+  139  git add .
+  140  git commit -m "Added develop1"
+  141  git add .develop1
+  142  clear
+  143  git checkout develop1
+  144  touch develop_test1.txt
+  145  git add .develop_test1.txt
+  146  git commit -m "Added develop_test1.txt"
+  147  git checkout develop1
+  148  ls -l
+  149  ls -la
+  150  echo "Develop branch changes"
+  151  git push develop
+  152  cd Documents
+  153  mkdir TestHW_10
+  154  pwd
+  155  cd TestHW_10
+  156  git config --global user.name Olha-star
+  157  git config --global user.email vare2001nyk@gmail.com
+  158  git config --get user.name
+  159  git config --get user.email
+  160  git clone https://github.com/Olha-star/HW_10.git
+  161  touch main_test.txt
+  162  ls -l
+  163  git add main_test.txt
+  164  git status
+  165  clear
+  166  git status
+  167  cd HW_10
+  168  git status
+  169  git checkout -b develop
+  170  git status
+  171  git branch
+  172  ls -l
+  173  touch develop_test.txt
+  174  ls -l
+  175  git status
+  176  git add develop_test.txt
+  177  git status
+  178  git add develop
+  179  git commit -m "Develop"
+  180  git status
+  181  git checkout -b develop
+  182  git status
+  183  ls -l
+  184  git commit -m "added new txt file"
+  185  git status
+  186  git log
+  187  git push origin develop
+  188  git checkout main
+  189  git log
+  190  git merge develop
+  191  git log
+  192  git push origin main
+  193  history > command_list.csv
+  194  ls -l
+  195  clear
+  196  vim .gitignore
+  197  clear
+  198  ls -l
+  199  touch .gitignore
+  200  ls -la
+  201  vim .gitignore
+  202  cd
+  203  cd /c/Users/Documents/TestHW_10/HW_10
+  204  cd /c/Users/Documents/TestHW_10
+  205  cd /c/Users/homem/TestHW_10/HW_10
+  206  cd /c/Users/homem/Documements/TestHW_10/HW_10
+  207  pwd
+  208  cd Documents
+  209  cd TestHW_10
+  210  cd HW_10
+  211  touch text_ignore.txt
+  212  git status
+  213  git add .
+  214  history > command_list.csv
